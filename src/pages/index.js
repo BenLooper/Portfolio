@@ -8,6 +8,7 @@ import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import config from '../../config';
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -18,38 +19,29 @@ const IndexPage = () => (
           <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
-                Explore
+                Learn More
               </a>
             </Scroll>
           </li>
         </ul>
       </div>
-      <Scroll type="id" element="one">
+      {/* <Scroll type="id" element="one">
         <a href="#one" className="more">
           Learn More
         </a>
-      </Scroll>
+      </Scroll> */}
     </section>
 
     <section id="one" className="wrapper style1 special">
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            Full stack experience
           </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
-          </p>
         </header>
         <ul className="icons major">
           <li>
-            <span className="icon fa-gem major style1">
+            <span className="icon fab fa-gem major style1">
               <span className="label">Lorem</span>
             </span>
           </li>
